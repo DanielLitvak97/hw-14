@@ -1,0 +1,5 @@
+---
+- hosts: servers
+  tasks:
+        - name: install vim and zip
+          apt: name=vim,zip state=present
